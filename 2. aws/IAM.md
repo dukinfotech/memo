@@ -13,3 +13,4 @@
 ## IAM Role
   - IAM Role dùng để nâng cao tính bảo mật trên AWS, và sử dụng để gán quyền `tạm thời` cho các `IAM User`
   - Các `IAM User`có thể attach `inline policty` để alias tới `IAM Role`. Sau đó `IAM User` có thể switch role để sử dụng các quyền của role đó
+  - `IAM Role` còn để gán quyền cho `EC2` hoặc `Lambda` (Ví dụ EC2 truy cập S3)
